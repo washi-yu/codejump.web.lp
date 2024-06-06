@@ -1,0 +1,441 @@
+body {
+  background-color: #F0F0F0;  
+  margin: 0;
+  padding: 0;
+}
+
+.with-max {
+  width: 100%;
+}
+
+.width-1000px {
+  width: 1000px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+ width: 100px;
+ height: 26px;
+ margin-left: 90px;
+ margin-right: 90px;
+ align-self: center;
+}
+
+.logo-img > a > img{
+  width: 100%;
+ 
+}
+
+header {
+  position: relative;
+  height: 80px;
+  display: flex;
+}
+
+.header-contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 80px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #ffff;
+  font-size: 12px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link > a {
+  margin-right:30px ;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+#news {
+  margin: 100px auto 0 auto;
+}
+
+.c-content-title > P{
+  margin: 0;
+  font-size: 14px;
+}
+
+.letter-spacing {
+  letter-spacing: 10.8px;
+  font-size: 36px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.hr {
+  width: 40px;
+  margin-top: 50px;
+}
+
+.c-news-content {
+  width: 33%;
+  margin-top: 50px;
+
+
+}
+
+.c-time {
+  margin-bottom: 30px;
+} 
+
+.c-time > time {
+  font-size: 14px;
+}
+
+.c-time > span {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.c-news-text {
+  font-size: 16px;
+}
+
+.c-content-title-center {
+  border-right:1px solid #000 ;
+  border-left:1px solid #000 ;
+}
+
+.c-content-title-center p,
+.c-content-title-right p {
+  margin-left: 20px;
+}
+
+#about {
+  margin: 100px auto 0 auto;
+}
+
+.about-img {
+  width: 50%;
+  height: 400px;
+}
+
+.about-img > img {
+  width: 100%;
+  height: 400px;
+}
+
+.about-content {
+  width: 50%;
+  margin-top: 200px;
+}
+
+.about-content > div {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.about-content-text {
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+#business {
+  margin: 100px auto 0 auto;
+}
+
+.business-left {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.business-left > div {
+  width: 100%;
+}
+
+.business-img {
+  width: 100%;
+}
+
+
+.business-right {
+  width: 40%;
+}
+
+.business-right > div {
+  width: 100%;
+}
+
+.business-content {
+  justify-content: center;
+  gap:50px;
+}
+
+.business-left > div {
+  margin-bottom: 50px;
+}
+
+.business-right > div {
+  margin-bottom: 50px;
+}
+
+.c-business-content {
+  font-size: 14px;
+}
+
+#company {
+  margin: 100px auto 0 auto;
+}
+
+.company-content {
+  background-color: #fff;
+  width: 57%;
+  position: relative;
+}
+
+.company-img {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  width: 80%;
+  height: 400px;
+}
+
+.company-img > img{
+  width:100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.company-content > .c-content-title {
+  padding-top : 100px;
+  margin-left:50px ;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  font-size: 14px;
+}
+
+.td-left {
+  width: 100px;
+  
+}
+
+footer {
+  background-color: #fff;
+   margin-top: 100px; 
+   padding-top: 50px;
+}
+
+footer > div {
+  margin:0 auto ;
+  justify-content: space-between;
+  
+}
+
+.footer-text > p {
+  margin: 0 80px 0 0;
+}
+
+.footer-img {
+  margin: 0;
+}
+
+
+.copyright {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:900px) {
+ .header-contact{
+  display: none;
+ }
+
+ header {
+  margin-bottom:10px ;
+ }
+
+ .logo-img {
+  margin: 20px 200px 10px 20px;
+ }
+
+ .link {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .link > a {
+  margin: 0 0 0 0;
+ }
+
+ #first-vew > img {
+  width: 200%;
+ }
+
+ .hr {
+  margin: 30px 0 0 0;
+ }
+
+ #news {
+  width: 100%;
+  margin: 100px 20px 0 20px;
+ }
+
+ 
+
+ .c-news-content {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom:25px ;
+ }
+
+ .c-content-title {
+  width: 100%;
+  border: none;
+ }
+
+ 
+ .c-content-title > p {
+  margin: 0;
+  width: 100%;
+ }
+
+ .c-content-title-center {
+  border: none;
+  margin: 0 0 30px 0;
+ }
+
+ .c-content-title-center > p {
+  margin: 10px 0 0 0;
+  width: 100%;
+ }
+
+ .c-content-title-right {
+  margin: 0;
+ }
+
+ .c-content-title-right > p {
+ margin: 10px 0 0 0 ; 
+}
+
+.c-time {
+  margin: 0 0 10px 0;
+}
+
+.c-news-text {
+  margin: 0 ;
+}
+
+.c-time > span {
+  margin-left: 20px;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-img > img {
+  width: 100%;
+}
+
+.about-content {
+  width: 100%;
+  margin: 30px 20px 20px;
+}
+
+.about-content > div {
+  margin: 0;
+}
+
+.about-content-text > p {
+  margin-top: 20px;
+  line-height: 2.5;
+}
+
+#business {
+  margin: 30px 20px 0 20px;
+  width: 100%;
+}
+/*  */
+.business-content {
+  width: 100%;
+  gap:0 ;
+}
+
+.letter-spacing {
+  width: 100%;
+}
+
+.business-left{
+  width: 100%;
+  margin-top:20px;
+}
+
+.business-left > div {
+  margin-bottom: 20px;
+}
+
+.c-business-content {
+  width: 100%;
+}
+
+.business-right{
+  width: 100%;
+}
+
+#company {
+  margin: 30px 20px 0 20px;
+  width: 100%;
+}
+
+.company-content {
+  width: 100%;
+}
+
+.company-content > .c-content-title{
+  padding-top: 40px;
+  margin-left: 30px;
+}
+
+table {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.company-img {
+  position: initial;
+  width: 100%;
+
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer > .flex {
+  width: 100%;
+}
+
+}
